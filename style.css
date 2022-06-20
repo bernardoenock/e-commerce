@@ -1,0 +1,411 @@
+
+li {
+    list-style-type:none; 
+}
+html, ul {      
+    position:relative;  
+    margin:0;          
+    padding:0;
+    width:100%;        
+    height:100%; 
+}
+body{
+    display: block;
+    position: center;
+    margin: 0;
+}
+/* Menu */
+
+header.topo{
+    width: 100%;
+    height: 70px;
+    background-color: #F5F5F5;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+div.cabeca{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+figure {
+    margin: 30px 95px 0 0;
+    align-items: center;
+}
+.cabeca h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    line-height: 10px;
+    color: #000000;
+}
+
+nav ul{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    margin-top: 10px;
+}
+nav li{
+    border-top: 4px solid #000000;
+    height: 10px;
+}
+nav li a{
+    visibility: hidden;
+}
+
+/* busca */
+.pesquisar{
+    margin-top: 20px;
+    margin-left: 20px;
+    box-shadow: 10px 5px 5px #2E245E;
+    width: 255px;
+    height:50px;
+    border-radius: 5px;
+}
+.pesquisar:hover{
+    box-shadow: 5px 2px 2px #2E245E;
+}
+.pesquisar input{
+    width: 155px;
+    height: 50px;
+    left: 1138px;
+    top: 97px;
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 12px;
+    color: #828282;
+}
+.pesquisar button{
+    width: 96px;
+    height: 50px;
+    left: 1392px;
+    top: 97px;
+    background: #6B54DE;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-left: -2px;
+}
+
+
+
+/* Produtos */
+
+div.todos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:250px;
+    margin: 10px 0px 10px 50px;
+}
+.todos li{
+    display:flex; 
+    align-items: center;  
+    justify-content: center;                                 
+    margin:0; 
+    margin-top: 20px;                
+}
+
+
+div.prod{
+    width: 300px;
+    height: 326px;
+    background-color: #F5F5F5;
+    margin-top: 5px;
+    margin-right: 35px;
+    box-shadow: 10px 5px 5px #2E245E;
+}
+div.prod:hover{
+    width: 299px;
+    height: 325px;
+    box-shadow: 5px 2px 2px #2E245E;
+}
+
+div.prod figure{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    margin: 0 0 0;
+    align-items: center;
+    
+}
+div.prod img{
+    width: 150px;
+    height: 127px;
+}
+span.type{
+    width: 72px;
+    height: 26px;
+    background-color:#2E245E;
+    color:white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    line-height: 22px;
+    margin-right: 225px;
+    box-shadow: 0px 3px 3px #2E245E;
+    border-radius: 2px;
+}
+
+div.prod h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2px;
+    color: #333333;
+}
+
+div.prod p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+
+div.descri{
+    margin-left: 15px;
+   
+}
+.descri span{
+    color:#2E245E;
+}
+.descri a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration-line: underline;
+    color: #828282;
+
+}
+
+/* Carrinho de compras */
+
+
+.carrinho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background: #F5F5F5;
+}
+.carrinho:hover{
+    box-shadow: 10px 5px 5px #2E245E;
+}
+.carrinho h2{
+    background-color: #6B54DE;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    width: 400px;
+    height: 40px;
+    margin-top: 0;
+}
+.dentro{
+    margin-top: 0;
+}
+.dentro h3{
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    color: #333333;   
+}
+.dentro p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+}
+
+/* Tablet */
+@media screen and (min-width: 400px) {
+   
+    /* Menu */
+    figure {
+        margin: 30px 386px 0 90px;
+    }
+    nav {
+        margin-right: 150px;
+    }
+
+    /* Busca */
+    .pesquisar {
+        width: 662px;
+    }
+    .pesquisar input{
+        width: 536px;
+    }
+    .pesquisar button{
+        width: 124px;
+    }
+
+    /* Produtos */
+
+    div.todos{
+        flex-direction: row;
+        width: 769px;
+        margin-top: 30px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+        
+    }
+    .todos li{
+        display: inline-flex;
+        margin: 20px 0 20px 0;     
+    }
+    
+    /* Carrinho */
+
+    .carrinho h2{
+        width: 769px;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 770px){
+
+    /* Menu */
+    header.topo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    figure {
+        margin: 25px 630px 0 20px;
+    }
+
+    .cabeca h1 {
+        font-size: 40px
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    nav ul{
+        width: 100%;
+        margin-top: 23px;
+       
+    }
+
+    nav li{
+        border-top: none;
+        height: 30px;
+        display: inline-block;
+        margin: 0 0 0 15px; 
+    }
+
+    nav li a{
+        visibility: visible;
+        text-decoration: none;
+        color: #828282;
+    }
+
+    nav li a:hover{
+        color:#333333;
+      }
+
+    nav li a:visited{
+        color:#333333;
+      }
+      /*main*/
+
+      section .produtos{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+
+    /* Busca */
+    .pesquisar{
+        width:348px;
+        float:right;
+        margin: 24px 26px 0 0;
+    }
+    .pesquisar input{
+        width: 248px;
+    }
+    .pesquisar button{
+        width: 98px;
+    }
+
+
+/* Carrinho */
+    .carrinho{
+        float:right;
+        width: 347px;
+        height: 344px;
+        margin: 10px 22px 0 0;
+    }
+    .carrinho h2{
+        line-height: 44px;
+        width: 347px;
+        height: 50px;
+    }
+    .dentro{
+        margin-top: 100px;
+    }
+
+    /* Produtos */
+    div.todos{
+        width: 948px;
+        margin: 0;
+        float: left;
+    }
+
+    div.prod{
+        margin: 0 5px;
+    }
+    
+    div.prod figure{
+        display: flex;
+        flex-direction: column;
+        width: 299px;
+        height: 150px;
+        background-color: white;
+        margin: 0 0 0;
+        align-items: center;
+        
+    }
+    div.prod img{
+        width: 150px;
+        height: 127px;
+    }
+    
+}
