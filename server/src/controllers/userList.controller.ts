@@ -1,9 +1,9 @@
 import { Request, Response } from "express";
 import userListService from "../services/userList.service";
 
-const userListController = (req: Request, res: Response) => {
+const userListController = async (req: Request, res: Response) => {
   try {
-    const users = userListService();
+    const users = await userListService();
 
     return res.status(200).send(users);
   } catch (err) {
